@@ -1,6 +1,6 @@
 from http.client import HTTPResponse
 from django.shortcuts import render
-
+from django.views.generic import CreateView
 
 # Create your views here.
 def index(request):
@@ -12,3 +12,8 @@ def post_detail(request):
 
     post = Post.objects.get(pk=pk)
     return 
+
+post_new = CreateView.as_view(
+    form_class=PostForm,
+    model=Post,
+    success_url="/blog/",)
