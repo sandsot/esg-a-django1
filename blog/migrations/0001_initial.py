@@ -24,7 +24,7 @@ class Migration(migrations.Migration):
                 ),
                 ("title", models.CharField(max_length=30)),
                 ("content", models.TextField()),
-                ("create_at", models.DateTimeField()),
+                ("created_at", models.DateTimeField()),
             ],
         ),
     ]

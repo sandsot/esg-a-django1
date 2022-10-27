@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,19 +7,19 @@
     <title>Blog List</title>
 </head>
 <body>
-    <h1>Blog</h1>
+    <h1>Djangoooo</h1>
 
-    { % for post in post_list% }
+    {% for post in post_list %}
         <h2>
              <a href="{{ post.get_absolute_url }}">
-            {{ post.title }}
-            </a>    
+             </a>
+             <a href="/blog/{{ post.pk }}/">
+                {{ post.title }}
+             </a>    
         </h2>
-        <h4>{{ post.create_at }} </h4>
-        <p>{{ post.content }}</p>
-    { % endfor % }
-    <hr/>
+            <h4>{{ post.created_at }}</h4>
+            <p>{{ post.content }}</p>
+    {% endfor %}
     <a href="/blog/new/">새 포스팅 쓰기</a>
-
 </body>
 </html>
