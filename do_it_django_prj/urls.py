@@ -22,7 +22,8 @@ def root(request):
     return HttpResponse("hello django")
 
 urlpatterns = [
-    path('', root), 
+    path('', root),
+    path('accounts/', include('accounts.urls')),
     path('blog/', include('blog.urls')), # blog.urls에 있는 주소 앞에 blog/를 한 번에 붙이자.
     path("admin/", admin.site.urls),
     path('diary/', include('diary.urls')),
