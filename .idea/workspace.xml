@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="133d7e77-2a15-4a64-b0d3-67092a977cdb" name="Changes" comment="jupyter notebook sample">
-      <change afterPath="$PROJECT_DIR$/acoounts/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model 놀이터.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Model 놀이터.ipynb" afterDir="false" />
+    <list default="true" id="133d7e77-2a15-4a64-b0d3-67092a977cdb" name="Changes" comment="accounts 앱 생성">
+      <change afterPath="$PROJECT_DIR$/accounts/templates/accounts/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts/templates/accounts/login_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts/templates/accounts/profile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts/templates/accounts/signup_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/esg-a-django1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/esg-a-django1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/acoounts/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/do_it_django_prj/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diary/templates/diary/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/diary/templates/diary/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/do_it_django_prj/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/do_it_django_prj/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/do_it_django_prj/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/do_it_django_prj/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +34,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2GhNMZuLgwqazrGVhIh4VWtBp1a" />
   <component name="ProjectViewState">
@@ -38,7 +47,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "C:/Users/euclid_edu1/work/esg-a-django1",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+    "settings.editor.selected.configurable": "com.jetbrains.django.DjangoModulesConfigurable"
   }
 }]]></component>
   <component name="RunManager">
@@ -76,7 +85,7 @@
       <option name="presentableId" value="Default" />
       <updated>1666836810107</updated>
       <workItem from="1666836813830" duration="775000" />
-      <workItem from="1666923125020" duration="12772000" />
+      <workItem from="1666923125020" duration="18377000" />
     </task>
     <task id="LOCAL-00001" summary="diary 앱을 다른 프로젝트로부터 이관">
       <created>1666923442301</created>
@@ -106,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666939379006</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="accounts 앱 생성">
+      <created>1666939946128</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1666939946128</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,6 +143,7 @@
     <MESSAGE value="diary 앱을 다른 프로젝트로부터 이관" />
     <MESSAGE value="ngrok 적용" />
     <MESSAGE value="jupyter notebook sample" />
-    <option name="LAST_COMMIT_MESSAGE" value="jupyter notebook sample" />
+    <MESSAGE value="accounts 앱 생성" />
+    <option name="LAST_COMMIT_MESSAGE" value="accounts 앱 생성" />
   </component>
 </project>

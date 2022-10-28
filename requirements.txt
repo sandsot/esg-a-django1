@@ -3,3 +3,4 @@ django-bootstrap5==22.1
 wheel==0.37.1
 pip==22.3
 django-debug-toolbar==3.7.0
+accounts~=0.2.4
