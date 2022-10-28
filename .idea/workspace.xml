@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="133d7e77-2a15-4a64-b0d3-67092a977cdb" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/urls.py" afterDir="false" />
+    <list default="true" id="133d7e77-2a15-4a64-b0d3-67092a977cdb" name="Changes" comment="diary 앱을 다른 프로젝트로부터 이관">
+      <change afterPath="$PROJECT_DIR$/diary/templates/diary/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/diary/templates/diary/memory_comfirm_delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/do_it_django_prj/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/do_it_django_prj/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/do_it_django_prj/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/do_it_django_prj/urls.py" afterDir="false" />
@@ -21,23 +21,29 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/venv/Lib/site-packages/django/shortcuts.py" root0="SKIP_INSPECTION" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectId" id="2GhNMZuLgwqazrGVhIh4VWtBp1a" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/euclid_edu1/work/esg-a-django1&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/euclid_edu1/work/esg-a-django1",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="esg-a-django1" type="Python.DjangoServer" factoryName="Django server">
       <module name="esg-a-django1" />
@@ -45,6 +51,7 @@
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="do_it_django_prj.settings" />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
@@ -72,8 +79,23 @@
       <option name="presentableId" value="Default" />
       <updated>1666836810107</updated>
       <workItem from="1666836813830" duration="775000" />
-      <workItem from="1666923125020" duration="300000" />
+      <workItem from="1666923125020" duration="7152000" />
     </task>
+    <task id="LOCAL-00001" summary="diary 앱을 다른 프로젝트로부터 이관">
+      <created>1666923442301</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1666923442301</updated>
+    </task>
+    <task id="LOCAL-00002" summary="diary 앱을 다른 프로젝트로부터 이관">
+      <created>1666923480248</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1666923480248</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -89,5 +111,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="diary 앱을 다른 프로젝트로부터 이관" />
+    <option name="LAST_COMMIT_MESSAGE" value="diary 앱을 다른 프로젝트로부터 이관" />
   </component>
 </project>

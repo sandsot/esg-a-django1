@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant</title>
+</head>
+<body>
+    <h1>Restaurant</h1>
+
+    {% for res in rest_qs %}
+        <h2>
+             <a href="{{ res.get_absolute_url }}">
+             </a>
+             <a href="/restaurants/{{ res.pk }}/">
+                {{ res.name }}
+             </a>    
+        </h2>
+            <h4>{{ res.average_score }}</h4>
+            <p>{{ res.description }}</p>
+    {% endfor %}
+    <a href= "/blog/restaurants/new/">레스토랑 쓰기</a>
+</body>
+</html>

@@ -1,0 +1,17 @@
+{% extends "diary/base.html" %}
+
+{% block content %}
+    <title>{{ post.title }} - Diary</title>
+
+<body>
+
+    <form action="" method="post">
+        {% csrf_token %}
+            Are you sure?
+        <input type="submit" value="Yes :)"/>
+    </form>
+
+<hr/>
+<a href="/diary/{{ memory.pk }}/edit/">Edit</a>
+</body>
+{% endblock %}

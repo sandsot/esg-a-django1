@@ -1,0 +1,16 @@
+{% extends "diary/base.html" %}
+
+{% block content %}
+    <title>{{ post.title }} - Diary</title>
+<body>
+<nav>
+    <a href="/diary/">Diary</a>
+</nav>
+<h1>{{ post.title }}</h1>
+<h5>{{ post.created_at }}</h5>
+<p>{{ post.message }}</p>
+<hr/>
+<a href="/diary/{{ memory.pk }}/edit/">Edit</a>
+<a href="/diary/{{ memory.pk }}/delete/">Delete</a>
+</body>
+{% endblock %}

@@ -71,6 +71,11 @@ def res_new(request):
 
 def res_post_page(request, pk):
     rest = Restaurant.objects.get(pk=pk)
+
+    if request.method == 'POST':
+        memory.delete()
+        return redirect("/diary/")
+
     return render(request, "blog/res_post_page.html",{
         "rest_qs": rest,
         })

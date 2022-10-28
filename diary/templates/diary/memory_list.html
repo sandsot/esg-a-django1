@@ -1,0 +1,16 @@
+{% extends "diary/base.html" %}
+
+{% block content %}
+<ul>
+{% for diary in posts %}
+    <hr/>
+        <h1><a href="{{ diary.get_absolute_url }}">
+                    {{ diary.title }}</a></h1>
+                <h5>{{ diary.created_at }}</h5>
+    <h2><p>{{ diary.message }}</p></h2>
+
+{% endfor %}
+</ul>
+<hr/>
+   <h3><a href="/diary/new/">New diary</a></h3>
+{% endblock %}
